@@ -49,6 +49,7 @@
 
       }
 
+      $db->close();
 ?>
     </table>
   </body>
