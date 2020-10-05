@@ -3,6 +3,6 @@
     <title>Diagnostics page</title>
   </head>
   <body>
-    <?php phpinfo() ?>
+    <?php phpinfo(); ?>
   </body>
 </html>
