@@ -16,6 +16,10 @@
       self::$conn->close();
     }
 
+    public function getConn(){
+      return self::$conn;
+    }
+
     public static function getInstance() {
       if (is_null(self::$instance)) {
         self::$instance = new Db;

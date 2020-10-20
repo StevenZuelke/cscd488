@@ -8,3 +8,9 @@ CREATE TABLE activity_log (
   timestamp DATETIME,
   message TEXT
 );
+CREATE TABLE users (
+  uid INTEGER PRIMARY KEY AUTOINCREMENT,
+  uname TEXT UNIQUE,
+  upassword TEXT
+);
+
